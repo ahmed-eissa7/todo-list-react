@@ -83,7 +83,7 @@ export default function TodoList() {
       }}>
       <div className="todo-list">
         <h1> To Do List </h1>
-        {/* <Form /> */}
+        <Form />
         <FilterStatus /> 
         {filteredTasksList ()}
       </div>

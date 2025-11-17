@@ -9,7 +9,7 @@
 
 :root {
   --gray: #333;
-  --green: #00a63d; /* تم تغيير اللون فقط */
+  --green: teal;
   --light-gray: #edeef0;
 }
 
@@ -59,12 +59,12 @@ form button {
 }
 
 form button:hover {
-  background-color: rgba(0,166,61,0.8);
+  background-color: rgba(7, 78, 78, 0.785);
   transform: scale(1.03);
 }
 
 form button:disabled {
-  background-color: #b2dfb8; 
+  background-color:rgba(92, 163, 163, 0.477); 
   color: #eee;
   cursor: not-allowed;
   transform: none;
@@ -84,7 +84,7 @@ form button:disabled {
 }
 
 .upd {
-  color: rgba(0, 166, 61, 0.7); /* أخضر بدل teal */
+  color: rgba(0, 128, 128, 0.674); /* أخضر بدل teal */
   font-size: 22px !important;
   margin-right: 10px;
   cursor: pointer;
@@ -110,10 +110,10 @@ form button:disabled {
 .filter-btns button {
   padding: 6px 14px;
   font-size: 13px;
-  border: 1px solid #b6e1b6;
+  border: 1px solid rgb(133, 185, 185);
   border-radius: 6px;
   background-color: #d4f8d4; 
-  color: rgb(64, 163, 64); 
+  color: rgb(45, 107, 107); 
   font-weight: 500;
   cursor: pointer;
   transition: background 0.2s ease, transform 0.1s ease;
