@@ -37,7 +37,7 @@ body{
 }
 
 form input {
-  padding: 15px;
+  padding: 12px;
   background-color: var(--light-gray);
   font-size: 14px;
   border-radius: 5px;
